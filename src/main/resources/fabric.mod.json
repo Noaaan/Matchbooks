@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "matchbooks",
+  "version": "${version}",
+  "name": "Matchbooks",
+  "description": "Recipe Library adding a bunch of ways to keep track of ingredients",
+  "authors": [],
+  "contact": {
+    "website": "https://github.com/DaFuqs/Matchbooks",
+    "repo": "https://github.com/DaFuqs/Matchbooks"
+  },
+  "license": "MIT",
+  "icon": "assets/matchbooks/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "de.dafuqs.matchbooks.Matchbooks"
+    ]
+  },
+  "mixins": [
+    "matchbooks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "required": true,
+  "required": false,
   "minVersion": "0.8",
   "package": "de.dafuqs.matchbooks.mixin",
   "compatibilityLevel": "JAVA_17",

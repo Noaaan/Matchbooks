@@ -21,9 +21,7 @@ Include Matchbooks via Jitpack:
 
 ## Usage
 
-```java
-// TODO - Example
-```
+For usage refer to the GitHub Wiki: https://github.com/Noaaan/Matchbooks/wiki
 
 Here is the list of currently supported matches:
 - Int

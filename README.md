@@ -6,8 +6,18 @@ This functionality originated from [Incubus Core.](https://github.com/Azzyypaara
 
 ## Setup
 
-Include Matchbooks.
-TODO - Update this section with a Maven
+Include Matchbooks via Jitpack:
+
+```gradle
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+		
+	dependencies {
+	        implementation 'com.github.Noaaan:Matchbooks:1.20-SNAPSHOT'
+	}
+```
 
 ## Usage
 

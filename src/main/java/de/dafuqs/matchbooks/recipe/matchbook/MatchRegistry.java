@@ -1,5 +1,6 @@
 package de.dafuqs.matchbooks.recipe.matchbook;
 
+import de.dafuqs.matchbooks.Matchbooks;
 import it.unimi.dsi.fastutil.objects.Object2ObjectArrayMap;
 import net.minecraft.util.Identifier;
 import java.util.Optional;
@@ -27,7 +28,7 @@ public class MatchRegistry {
      */
     static void registerInternal(String id, MatchFactory<?> factory) {
         REGISTRY.put(id, factory);
-        REGISTRY.put("incubus:" + id, factory);
+        REGISTRY.put(Matchbooks.MOD_ID + ":" + id, factory);
     }
 
     public static Optional<MatchFactory<?>> getOptional(String id) {

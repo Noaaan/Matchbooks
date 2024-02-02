@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "icon": "assets/matchbooks/icon.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "main": [
       "de.dafuqs.matchbooks.Matchbooks"

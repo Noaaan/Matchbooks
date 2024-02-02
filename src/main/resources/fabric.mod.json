@@ -4,7 +4,12 @@
   "version": "${version}",
   "name": "Matchbooks",
   "description": "Recipe Library adding a bunch of ways to keep track of ingredients",
-  "authors": [],
+  "authors": [
+    "Noaaan",
+    "DaFuqs",
+    "Nerjal Nosk",
+    "Azzyypaaras (former author)"
+  ],
   "contact": {
     "website": "https://github.com/DaFuqs/Matchbooks",
     "repo": "https://github.com/DaFuqs/Matchbooks"

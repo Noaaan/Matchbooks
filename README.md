@@ -9,13 +9,12 @@ This functionality originated from [Incubus Core.](https://github.com/Azzyypaara
 Include Matchbooks via Jitpack:
 
 ```gradle
-    repositories {
-        mavenCentral()
-        maven { url 'https://jitpack.io' }
-    }
+	repositories {
+		maven { url "https://maven.is-immensely.gay/releases" }
+	}
 		
 	dependencies {
-	        implementation 'com.github.Noaaan:Matchbooks:1.20-SNAPSHOT'
+		implementation 'de.dafuqs:Matchbooks:0.1.0'
 	}
 ```
 
